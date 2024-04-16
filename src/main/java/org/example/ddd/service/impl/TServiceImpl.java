@@ -438,4 +438,9 @@ public class TServiceImpl implements TService {
 //  此处很重要，如果命中或者未命中都需要 遍历其他节点
         cursor.toParent();
     }
+
+
+    public static void sayHello() {
+        System.out.println("hello");
+    }
 }
