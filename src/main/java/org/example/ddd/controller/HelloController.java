@@ -50,4 +50,9 @@ public class HelloController {
     public String readExcel() throws IOException {
         return tService.readExcel();
     }
+
+    @GetMapping("/test1")
+    public String test1() throws IOException {
+        return "test1";
+    }
 }
